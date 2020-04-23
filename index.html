@@ -1,49 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Portfolio</title>
-</head>
+    <title>About Me | Basic Portfolio</title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 <body>
     <header>
-        <div id="top-menu">
-            <h1 id="name">Ammar Alazzawi</h1>
-            <span class="menu-items">
-                <a class="menu-item" href="index.html">About</a> <span>|</span>
-                <a class="menu-item" href="portfolio.html">Portfolio</a> <span>|</span>
-                <a class="menu-item" href="contact.html">Contact</a>
-            </span>
-        </div>
+        <div class="container">
+            <div class="name">
+                <h1 class="logo">Ammar Alazzawi</h1>
+            </div>
+            <nav class="nav">   
+                <ul>
+                    <li><a href="index.html">About</a></li>     
+                    <li><a href="portfolio.html">Portfolio</a></li>   
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>  <!--closes navigation --> 
+        </div> <!--Closes Container-->
     </header>
-    <div class="main-content">
-        <h1 class="heading-text">About me</h1>
-        <hr />
-        <div class="summary">
-            <img id="pro-pic" src="https://media.licdn.com/dms/image/C4E03AQGALVze_4pCfA/profile-displayphoto-shrink_200_200/0?e=1579737600&v=beta&t=FVciAdiV9huIiUOKgrNzk-OUbKs2FpaEkSycRm5764A" alt="Profile Pic">
-            <p class="other-fonts">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae facere incidunt. Ab ipsam
-                modi fugit sequi adipisci odio magnam at. Quas, quo nulla maxime optio iure nam quisquam aliquid. Lorem
-                ipsum, dolor sit amet consectetur adipisicing elit. Mollitia asperiores expedita error sunt eos eius,
-                debitis perspiciatis porro cum excepturi omnis, corporis dolorem eum. Velit unde obcaecati nesciunt?
-                Aperiam, doloribus. <br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam ducimus vel quam, ratione inventore,
-                ipsum, tenetur amet ab libero reprehenderit accusantium id quae cupiditate Mollitia asperiores expedita
-                consectetur atque similique
-                laudantium iste velit. <br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quos commodi velit molestias
-                repellendus minus dolorem ex possimus blanditiis asperiores. Est quas beatae optio quos quaerat
-                accusamus blanditiis placeat eos? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    
+    
+    <div class="content">   <!--Main Body of information -->  
+        <div class="main">
+            <h2 class="page-title">About Me</h2>
+        
+        
+
+            <img class="about-photo" src="assets/images/aboutme.jpg" alt="About me 5k run photo" id="inline-img" />
+            <p>
+                Hello Everyone! If we have not already met, my name is Ammar Alazzawi and this is my basic portfolio page/homework assignment. I graduated from Alpetra University in 2008 with a BA in Business Adminstration and I currently take a part time Full Stack Web Development class at UCI University.
+            </p>
+            <p>
+                In my free time I love to go to the gym . I am currently pursuing my MBA, accomplishing a life long goal .  Additionally, I enjoy playing Football and playing video games!
+            </p>
+            <p>I hope this gives some insight about me! Feel free to ask me any questions or to chat it up about Web Stuff!
+
             </p>
         </div>
-    </div>
-    <div class="footer">
-        <p class="footer-content">Copyright&copy;</p>
-    </div>
-</body>
+    </div> <!-- closes content div-->
+   
+    <div class="clearfix"></div>
+    <footer>
+        &copy;2020 Ammar Alazzawi
+    </footer>
 
+
+</body>
 </html>
